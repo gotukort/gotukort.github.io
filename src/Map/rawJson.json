@@ -1,0 +1,402 @@
+[
+  {
+    "id": "breidin",
+    "name": "Breiðin",
+    "lat": 64.307169,
+    "lng": -22.096173,
+    "more": "https://www.skagalif.is/is/utivist/breidin",
+    "paths": ""
+  },
+  {
+    "id": "gardar",
+    "name": "Akranes Folk Museum",
+    "lat": 64.319839,
+    "lng": -22.044944,
+    "more": "",
+    "paths": "bike2"
+  },
+  {
+    "id": "gudlaug",
+    "name": "Guðlaug",
+    "lat": 64.316989,
+    "lng": -22.060192,
+    "more": "",
+    "paths": "beach3, bike2"
+  },
+  {
+    "id": "akrafjall",
+    "name": "Akrafjall",
+    "lat": 64.325964,
+    "lng": -21.985354,
+    "more": "",
+    "paths": ""
+  },
+  {
+    "id": "langisandur",
+    "name": "Langisandur",
+    "lat": 64.317741,
+    "lng": -22.067105,
+    "more": "",
+    "paths": "beach3"
+  },
+  {
+    "id": "sementsstrompur",
+    "name": "Cement factory chimney",
+    "lat": 64.318209,
+    "lng": -22.075151,
+    "more": "",
+    "paths": ""
+  },
+  {
+    "id": "hringras",
+    "name": "Hringrás",
+    "lat": 64.31955,
+    "lng": -22.07963,
+    "more": "",
+    "paths": "artwalk1"
+  },
+  {
+    "id": "thorgeir",
+    "name": "Brjóstmynd af Þorgeiri Jósefssyni",
+    "lat": 64.31897,
+    "lng": -22.08055,
+    "more": "",
+    "paths": "artwalk1"
+  },
+  {
+    "id": "akratorg",
+    "name": "Sjómaðurinn",
+    "lat": 64.317034,
+    "lng": -22.083779,
+    "more": "",
+    "paths": "artwalk1"
+  },
+  {
+    "id": "hnottur",
+    "name": "Hnöttur",
+    "lat": 64.31895,
+    "lng": -22.08417,
+    "more": "",
+    "paths": "artwalk1"
+  },
+  {
+    "id": "bowie",
+    "name": "David Bowie minningarveggur",
+    "lat": 64.31785,
+    "lng": -22.08181,
+    "more": "",
+    "paths": "artwalk1"
+  },
+  {
+    "id": "stulka",
+    "name": "Stúlka með löngu",
+    "lat": 64.31757,
+    "lng": -22.08184,
+    "more": "",
+    "paths": "artwalk1"
+  },
+  {
+    "id": "alfaborgir",
+    "name": "Álfaborgir",
+    "lat": 64.31692,
+    "lng": -22.08024,
+    "more": "",
+    "paths": "artwalk1"
+  },
+  {
+    "id": "vinaminni",
+    "name": "Glerlistaverk, steindur gluggi, Vinaminni",
+    "lat": 64.31705,
+    "lng": -22.08741,
+    "more": "",
+    "paths": "artwalk1"
+  },
+  {
+    "id": "skvisurnar",
+    "name": "Skvísurnar",
+    "lat": 64.31699,
+    "lng": -22.08558,
+    "more": "",
+    "paths": "artwalk1"
+  },
+  {
+    "id": "hb",
+    "name": "Brjóstmynd af Ingunni Sveinsdóttur og Haraldi Böðvarssyni",
+    "lat": 64.31521,
+    "lng": -22.09126,
+    "more": "",
+    "paths": "artwalk1"
+  },
+  {
+    "id": "siberia",
+    "name": "temp27",
+    "lat": 64.3087,
+    "lng": -22.09489,
+    "more": "",
+    "paths": "artwalk1"
+  },
+  {
+    "id": "hafmeyja",
+    "name": "Hafmeyjuslysið",
+    "lat": 64.30722,
+    "lng": -22.09558,
+    "more": "",
+    "paths": "artwalk1"
+  },
+  {
+    "id": "jardbundinn",
+    "name": "Jarðbundinn",
+    "lat": 64.32091,
+    "lng": -22.0774,
+    "more": "",
+    "paths": "artwalk2"
+  },
+  {
+    "id": "pyramidisk",
+    "name": "Pýramídísk afstraksjón",
+    "lat": 64.32175,
+    "lng": -22.07431,
+    "more": "",
+    "paths": "artwalk2"
+  },
+  {
+    "id": "elinarsaeti",
+    "name": "Elínarsæti",
+    "lat": 64.332612,
+    "lng": -22.058929,
+    "more": "",
+    "paths": "artwalk2"
+  },
+  {
+    "id": "skutlan",
+    "name": "Skutlan",
+    "lat": 64.32357,
+    "lng": -22.07511,
+    "more": "",
+    "paths": "artwalk2"
+  },
+  {
+    "id": "grasleppukarlar",
+    "name": "Grásleppukarlar",
+    "lat": 64.32655,
+    "lng": -22.06659,
+    "more": "",
+    "paths": "artwalk2"
+  },
+  {
+    "id": "talbeita",
+    "name": "Tálbeita",
+    "lat": 64.33144,
+    "lng": -22.0618,
+    "more": "",
+    "paths": "artwalk2"
+  },
+  {
+    "id": "motthroi",
+    "name": "Mótþrói",
+    "lat": 64.33917,
+    "lng": -22.02643,
+    "more": "",
+    "paths": "artwalk2"
+  },
+  {
+    "id": "bjartsynn",
+    "name": "Bjartsýnn",
+    "lat": 64.322379,
+    "lng": -22.066606,
+    "more": "",
+    "paths": "artwalk3"
+  },
+  {
+    "id": "fotboltamenn",
+    "name": "Fótboltamenn",
+    "lat": 64.319921,
+    "lng": -22.068211,
+    "more": "",
+    "paths": "artwalk3"
+  },
+  {
+    "id": "gnyr",
+    "name": "Gnýr",
+    "lat": 64.31948,
+    "lng": -22.06706,
+    "more": "",
+    "paths": "artwalk3"
+  },
+  {
+    "id": "kubbaleikur",
+    "name": "Kubbaleikur",
+    "lat": 64.31912,
+    "lng": -22.05751,
+    "more": "",
+    "paths": "artwalk3"
+  },
+  {
+    "id": "grettistak",
+    "name": "Grettistak",
+    "lat": 64.31499,
+    "lng": -22.04885,
+    "more": "",
+    "paths": "artwalk3"
+  },
+  {
+    "id": "himnariki",
+    "name": "Himnaríki",
+    "lat": 64.31304,
+    "lng": -22.04325,
+    "more": "",
+    "paths": "artwalk3"
+  },
+  {
+    "id": "irski",
+    "name": "Írski steinninn",
+    "lat": 64.31925,
+    "lng": -22.04587,
+    "more": "",
+    "paths": "artwalk4"
+  },
+  {
+    "id": "jonasm",
+    "name": "Minnisvarði Jóns M Guðjónsson",
+    "lat": 64.31927,
+    "lng": -22.04484,
+    "more": "",
+    "paths": "artwalk4"
+  },
+  {
+    "id": "gudmundurj",
+    "name": "Minnisvarði um Guðmund Jónsson",
+    "lat": 64.32235,
+    "lng": -22.03542,
+    "more": "",
+    "paths": "artwalk4"
+  },
+  {
+    "id": "end",
+    "name": "",
+    "lat": 64.3184,
+    "lng": -22.05265,
+    "more": "",
+    "paths": "running"
+  },
+  {
+    "id": "start",
+    "name": "",
+    "lat": 64.318458,
+    "lng": -22.052542,
+    "more": "",
+    "paths": "running"
+  },
+  {
+    "id": "kalmansvik",
+    "name": "",
+    "lat": 64.325861,
+    "lng": -22.069333,
+    "more": "",
+    "paths": "beach1"
+  },
+  {
+    "id": "elinarhofdi",
+    "name": "",
+    "lat": 64.332694,
+    "lng": -22.058667,
+    "more": "",
+    "paths": "beach1"
+  },
+  {
+    "id": "baskaganga",
+    "name": "",
+    "lat": 64.331972,
+    "lng": -22.056361,
+    "more": "",
+    "paths": "beach1"
+  },
+  {
+    "id": "hundar",
+    "name": "",
+    "lat": 64.331944,
+    "lng": -22.048,
+    "more": "",
+    "paths": "beach1"
+  },
+  {
+    "id": "krokalonStart",
+    "name": "",
+    "lat": 64.321825,
+    "lng": -22.084758,
+    "more": "",
+    "paths": "beach2"
+  },
+  {
+    "id": "krokalonEnd",
+    "name": "",
+    "lat": 64.317194,
+    "lng": -22.092806,
+    "more": "",
+    "paths": "beach2"
+  },
+  {
+    "id": "solmundarhofdi",
+    "name": "",
+    "lat": 64.313056,
+    "lng": -22.051889,
+    "more": "",
+    "paths": "beach3"
+  },
+  {
+    "id": "aefingartaeki",
+    "name": "",
+    "lat": 64.316806,
+    "lng": -22.057889,
+    "more": "",
+    "paths": "beach3, bike1"
+  },
+  {
+    "id": "gardalundur",
+    "name": "",
+    "lat": 64.321719,
+    "lng": -22.036703,
+    "more": "",
+    "paths": ""
+  },
+  {
+    "id": "grundaskoli",
+    "name": "",
+    "lat": 64.319028,
+    "lng": -22.056278,
+    "more": "",
+    "paths": "bike1"
+  },
+  {
+    "id": "eyrarflot",
+    "name": "",
+    "lat": 64.321667,
+    "lng": -22.055528,
+    "more": "",
+    "paths": "bike1"
+  },
+  {
+    "id": "bjarkargrund",
+    "name": "",
+    "lat": 64.317472,
+    "lng": -22.049389,
+    "more": "",
+    "paths": "bike1"
+  },
+  {
+    "id": "grenigrund",
+    "name": "",
+    "lat": 64.315889,
+    "lng": -22.045667,
+    "more": "",
+    "paths": "bike1"
+  },
+  {
+    "id": "jorundarholt",
+    "name": "",
+    "lat": 64.317028,
+    "lng": -22.038694,
+    "more": "",
+    "paths": "bike1"
+  }
+]

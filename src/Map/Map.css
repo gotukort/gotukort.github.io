@@ -1,0 +1,25 @@
+.Map {
+  height: calc(100vh - 70px);
+  width: 100%;
+}
+
+.Map__drawer {
+  display: block;
+}
+
+@media only screen and (min-width: 768px) {
+  .Map {
+    width: 75%;
+    display: inline-block;
+  }
+
+  .Map__drawer {
+    display: none;
+  }
+
+  .MuiDrawer-paper.MuiDrawer-paperAnchorBottom {
+    right: 25%;
+    left: auto;
+    width: 340px;
+  }
+}

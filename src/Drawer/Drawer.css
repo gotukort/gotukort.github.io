@@ -1,0 +1,22 @@
+.Drawer {
+  width: 250px;
+  overflow: scroll !important;
+}
+.Drawer__image {
+  height: 200px;
+}
+.Drawer__closeButton {
+  position: absolute !important;
+  right: 0;
+  font-size: 30px;
+  color: black;
+  padding-top: 5px;
+  padding-right: 7px;
+}
+
+@media only screen and (min-width: 768px) {
+  .Drawer {
+    width: 0;
+    display: none;
+  }
+}

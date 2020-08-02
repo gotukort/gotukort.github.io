@@ -1,0 +1,43 @@
+.App__icon {
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+  color: #005a9c;
+}
+.App__pathInfo {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  color: #005a9c;
+  font-weight: bold;
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+}
+
+.App__icon button,
+.App__pathInfo button {
+  font-size: 50px;
+}
+.App__icon--highlight,
+.App__pathInfo--highlight {
+  color: #fff;
+  z-index: 9999;
+}
+.App__icon--highlight::before,
+.App__pathInfo--highlight::before {
+  content: '';
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  left: 17px;
+  top: 17px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 30px 10px rgba(255, 255, 255, 0.6);
+}
+@media only screen and (min-width: 768px) {
+  .App__pathInfo,
+  .App__icon {
+    right: calc(25% + 10px);
+  }
+}

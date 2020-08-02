@@ -1,0 +1,44 @@
+.Header {
+  padding: 10px 20px;
+  height: 50px;
+  display: flex;
+}
+.Header__title {
+  margin: 0;
+  font-size: 16px;
+  line-height: 47px;
+  color: #005a9c;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  flex: 1;
+}
+.Header__langage {
+  height: 28px;
+  width: 35px;
+  background: url('./is.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.Header__langage--is {
+  background-image: url('./is.png');
+}
+.Header__langage--en {
+  background-image: url('./en.png');
+}
+.Header__languages {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.Header__changeLanguage {
+  display: flex;
+  color: #005a9c;
+}
+
+@media only screen and (min-width: 768px) {
+  .Header__langage {
+    width: 50px;
+  }
+}

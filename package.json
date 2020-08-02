@@ -1,0 +1,62 @@
+{
+  "name": "akranes",
+  "version": "1.0.0",
+  "homepage": "http://gotukort.github.io",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.9.12",
+    "@material-ui/icons": "^4.9.1",
+    "@react-google-maps/api": "^1.9.5",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/google-map-react": "^1.1.7",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "classnames": "^2.2.6",
+    "clipboard": "^2.0.6",
+    "google-map-react": "^1.1.7",
+    "i18next": "^19.4.5",
+    "i18next-browser-languagedetector": "^4.2.0",
+    "i18next-http-backend": "^1.0.15",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-ga": "^3.1.2",
+    "react-i18next": "^11.5.0",
+    "react-scripts": "3.4.1",
+    "source-map-explorer": "^2.4.2",
+    "typescript": "~3.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.10",
+    "@types/clipboard": "^2.0.1",
+    "@types/googlemaps": "^3.39.6",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.7",
+    "gh-pages": "^2.2.0"
+  }
+}

@@ -1,0 +1,53 @@
+.IntroScreen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1400;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+}
+.IntroScreen__content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.IntroScreen__text {
+  font-size: 18px;
+}
+.IntroScreen__button {
+  margin-top: 10px !important;
+}
+.IntroScreen__content.App__pathInfo {
+  z-index: 1500;
+}
+.IntroScreen__buttonContainer {
+  display: flex;
+}
+.IntroScreen__buttonContainer .IntroScreen__button {
+  flex: 1;
+}
+.IntroScreen__buttonContainer .IntroScreen__button--next {
+  margin-left: 5px;
+}
+.IntroScreen__buttonContainer .IntroScreen__button--close {
+  margin-right: 5px;
+}
+@media only screen and (min-width: 768px) {
+  .IntroScreen {
+    justify-content: center;
+  }
+  .IntroScreen__content {
+    width: 300px;
+    margin-bottom: 0;
+  }
+}

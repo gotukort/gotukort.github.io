@@ -1,0 +1,11 @@
+.ListView {
+  float: right;
+  width: 25%;
+  height: calc(100vh - 70px);
+  overflow-y: scroll;
+}
+@media only screen and (max-width: 768px) {
+  .ListView {
+    display: none;
+  }
+}
