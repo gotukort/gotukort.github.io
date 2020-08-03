@@ -117,5 +117,5 @@ export function getCircleImage(pathID: string) {
 }
 
 export function getLargeImage(pathID: string) {
-  return `/akranes/large/${pathID}_optimized.png`;
+  return `/large/${pathID}_optimized.png`;
 }
