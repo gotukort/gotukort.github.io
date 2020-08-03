@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+See original history [here](https://github.com/axelg12/akranes)
+
 ## Available Scripts
 
 In the project directory, you can run:
