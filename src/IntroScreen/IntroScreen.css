@@ -41,6 +41,7 @@
 }
 .IntroScreen__buttonContainer .IntroScreen__button--close {
   margin-right: 5px;
+  color: #fff;
 }
 @media only screen and (min-width: 768px) {
   .IntroScreen {
