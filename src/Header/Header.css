@@ -2,29 +2,35 @@
   padding: 10px 20px;
   height: 50px;
   display: flex;
+  box-sizing: border-box;
 }
 .Header__title {
   margin: 0;
   font-size: 16px;
-  line-height: 47px;
+  line-height: 35px;
   color: #005a9c;
   font-family: Montserrat, Helvetica, Arial, sans-serif;
   font-weight: 600;
   text-transform: uppercase;
   flex: 1;
+  padding-left: 10px;
 }
 .Header__langage {
-  height: 28px;
   width: 35px;
   background: url('./is.png');
   background-size: contain;
   background-repeat: no-repeat;
   cursor: pointer;
 }
+.MuiList-padding {
+  padding: 0 !important;
+}
 .Header__langage--is {
+  height: 21px;
   background-image: url('./is.png');
 }
 .Header__langage--en {
+  height: 21px;
   background-image: url('./en.png');
 }
 .Header__languages {

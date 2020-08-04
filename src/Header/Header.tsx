@@ -32,8 +32,8 @@ function Header() {
         className="Header__image"
         src={logo}
         alt="Akranes logo"
-        height="47"
-        width="62"
+        height="35"
+        width="28"
       />
       <h1 className="Header__title">{t('title')}</h1>
       <div className="Header__languages">
