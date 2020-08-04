@@ -40,7 +40,7 @@ function Map({
   const { t } = useTranslation();
   const zoom = 14;
   const containerStyle = {
-    height: 'calc(100vh - 70px)',
+    height: 'calc(100vh - 50px)',
     width: '100%',
   };
 
