@@ -36,6 +36,7 @@ import gnyr from './images/gnyr.png';
 import kubbaleikur from './images/kubbaleikur.png';
 import grettistak from './images/grettistak.png';
 import himnariki from './images/himnariki.png';
+import fotboltamenn from './images/fotboltamenn.png';
 
 // artwalk 4
 import irski from './images/irski.png';
@@ -110,6 +111,7 @@ const smallImageMapper: Dic = {
   bjarkargrund: bjarkargrund,
   grenigrund: grenigrund,
   jorundarholt: jorundarholt,
+  fotboltamenn: fotboltamenn,
 };
 
 export function getCircleImage(pathID: string) {
