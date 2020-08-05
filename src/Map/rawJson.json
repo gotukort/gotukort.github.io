@@ -21,7 +21,7 @@
     "lat": 64.316989,
     "lng": -22.060192,
     "more": "",
-    "paths": "beach3, bike2"
+    "paths": "beach3,bike2,running3,running2"
   },
   {
     "id": "akrafjall",
@@ -37,7 +37,7 @@
     "lat": 64.317741,
     "lng": -22.067105,
     "more": "",
-    "paths": "beach3"
+    "paths": "beach3,running3,running2,running1"
   },
   {
     "id": "sementsstrompur",
@@ -272,22 +272,6 @@
     "paths": "artwalk4"
   },
   {
-    "id": "end",
-    "name": "",
-    "lat": 64.3184,
-    "lng": -22.05265,
-    "more": "",
-    "paths": "running"
-  },
-  {
-    "id": "start",
-    "name": "",
-    "lat": 64.318458,
-    "lng": -22.052542,
-    "more": "",
-    "paths": "running"
-  },
-  {
     "id": "kalmansvik",
     "name": "",
     "lat": 64.325861,
@@ -341,7 +325,7 @@
     "lat": 64.313056,
     "lng": -22.051889,
     "more": "",
-    "paths": "beach3"
+    "paths": "beach3,running2"
   },
   {
     "id": "aefingartaeki",
@@ -357,7 +341,7 @@
     "lat": 64.321719,
     "lng": -22.036703,
     "more": "",
-    "paths": ""
+    "paths": "running3"
   },
   {
     "id": "grundaskoli",
@@ -398,5 +382,13 @@
     "lng": -22.038694,
     "more": "",
     "paths": "bike1"
+  },
+  {
+    "id": "langisandur_stigur",
+    "name": "",
+    "lat": 64.314556,
+    "lng": -22.052417,
+    "more": "",
+    "paths": "beach3"
   }
 ]

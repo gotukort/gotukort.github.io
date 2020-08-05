@@ -51,6 +51,7 @@ import krokalonStart from './images/krokalonStart.png';
 import krokalonEnd from './images/krokalonEnd.png';
 import solmundarhofdi from './images/solmundarhofdi.png';
 import aefingartaeki from './images/aefingartaeki.png';
+import langisandurPath from './images/langisandur_stigur.png';
 
 // bikes
 import grundaskoli from './images/grundaskoli.png';
@@ -112,6 +113,7 @@ const smallImageMapper: Dic = {
   grenigrund: grenigrund,
   jorundarholt: jorundarholt,
   fotboltamenn: fotboltamenn,
+  langisandur_stigur: langisandurPath,
 };
 
 export function getCircleImage(pathID: string) {
