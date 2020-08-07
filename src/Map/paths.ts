@@ -63,7 +63,7 @@ function getPathInfoById(pathID: string) {
       position = { lat: 64.316961, lng: -22.060202 };
       break;
     case 'running_one':
-      cardImg = '/large/beachwalk3_optimized.png';
+      cardImg = '/large/running1_optimized.png';
       position = { lat: 64.319626, lng: -22.08087 };
       break;
     case 'running_two':
