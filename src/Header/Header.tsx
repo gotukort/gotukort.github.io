@@ -28,15 +28,9 @@ function Header() {
   };
   return (
     <header className="Header">
-      <img
-        className="Header__image"
-        src={logo}
-        alt="Akranes logo"
-        height="35"
-        width="28"
-      />
+      <img className="Header__image" src={logo} alt="Akranes logo" height="35" width="28" />
       <h1 className="Header__title">{t('title')}</h1>
-      <div className="Header__languages">
+      {/* <div className="Header__languages">
         <Menu
           id="simple-menu"
           anchorEl={anchorEl}
@@ -64,7 +58,7 @@ function Header() {
           />
           <ArrowDropDownIcon color="inherit" />
         </div>
-      </div>
+      </div> */}
     </header>
   );
 }

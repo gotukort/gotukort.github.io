@@ -37,8 +37,8 @@ function App() {
   const [pathId, changePathId] = useState('all');
   const { t } = useTranslation();
 
-  function errorUserPos() {
-    console.log('Sorry, no position available.');
+  function errorUserPos(geolocationPositionError: any) {
+    console.log('Sorry, no position available.', geolocationPositionError);
   }
 
   useEffect(() => {
@@ -79,11 +79,7 @@ function App() {
           />
         )}
         <Header />
-        <Map
-          userPosition={userPosition}
-          pathId={pathId}
-          infoClick={infoClick}
-        />
+        <Map userPosition={userPosition} pathId={pathId} infoClick={infoClick} />
         <div
           className={classNames('App__pathInfo', {
             'App__pathInfo--highlight': introScreenStep === 2,
