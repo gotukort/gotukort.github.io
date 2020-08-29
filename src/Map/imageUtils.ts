@@ -6,6 +6,9 @@ import langisandur from './images/langisandur.png';
 import breidin from './images/breidin.png';
 import gardar from './images/gardar.png';
 import gardalundur from './images/gardalundur.png';
+import biohollin from './images/biohollin.png';
+import hofrungur from './images/hofrungur.png';
+import golf from './images/golf.png';
 
 // artwalk 1
 import hringras from './images/hringras.png';
@@ -114,6 +117,9 @@ const smallImageMapper: Dic = {
   jorundarholt: jorundarholt,
   fotboltamenn: fotboltamenn,
   langisandur_stigur: langisandurPath,
+  biohollin: biohollin,
+  hofrungur: hofrungur,
+  golf: golf,
 };
 
 export function getCircleImage(pathID: string) {

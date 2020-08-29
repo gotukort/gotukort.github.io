@@ -12,6 +12,10 @@ export const ALL_MARKERS = [
   'langisandur',
   'akratorg',
   'gardalundur',
+  'hofrungur',
+  'biohollin',
+  'golf',
+  'hofrungur',
 ];
 
 const markers = rawJson.map((marker) => {

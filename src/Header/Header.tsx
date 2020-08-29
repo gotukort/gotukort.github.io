@@ -1,31 +1,31 @@
 import React from 'react';
-import classNames from 'classnames';
+// import classNames from 'classnames';
 import { useTranslation } from 'react-i18next';
-import Menu from '@material-ui/core/Menu';
-import MenuItem from '@material-ui/core/MenuItem';
-import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
+// import Menu from '@material-ui/core/Menu';
+// import MenuItem from '@material-ui/core/MenuItem';
+// import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 import logo from './logo.svg';
 import './Header.css';
 
-const SUPPORTED_LANGS = ['en', 'is'];
+// const SUPPORTED_LANGS = ['en', 'is'];
 
 function Header() {
-  const { i18n, t } = useTranslation();
-  const changeLanguage = (lng: string) => {
-    if (lng && SUPPORTED_LANGS.includes(lng)) {
-      i18n.changeLanguage(lng);
-    }
-  };
-  const language = i18n.language;
-  const [anchorEl, setAnchorEl] = React.useState(null);
-  const handleClick = (event: any) => {
-    setAnchorEl(event.currentTarget);
-  };
+  const { t } = useTranslation();
+  // const changeLanguage = (lng: string) => {
+  //   if (lng && SUPPORTED_LANGS.includes(lng)) {
+  //     i18n.changeLanguage(lng);
+  //   }
+  // };
+  // const language = i18n.language;
+  // const [anchorEl, setAnchorEl] = React.useState(null);
+  // const handleClick = (event: any) => {
+  //   setAnchorEl(event.currentTarget);
+  // };
 
-  const handleClose = (lang: string) => {
-    changeLanguage(lang);
-    setAnchorEl(null);
-  };
+  // const handleClose = (lang: string) => {
+  //   changeLanguage(lang);
+  //   setAnchorEl(null);
+  // };
   return (
     <header className="Header">
       <img className="Header__image" src={logo} alt="Akranes logo" height="35" width="28" />

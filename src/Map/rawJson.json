@@ -390,5 +390,29 @@
     "lng": -22.052417,
     "more": "",
     "paths": "beach3"
+  },
+  {
+    "id": "biohollin",
+    "name": "",
+    "lat": 64.314873,
+    "lng": -22.092187,
+    "more": "",
+    "paths": ""
+  },
+  {
+    "id": "golf",
+    "name": "",
+    "lat": 64.319396,
+    "lng": -22.035307,
+    "more": "",
+    "paths": ""
+  },
+  {
+    "id": "hofrungur",
+    "name": "",
+    "lat": 64.3177487,
+    "lng": -22.0982979,
+    "more": "",
+    "paths": ""
   }
 ]

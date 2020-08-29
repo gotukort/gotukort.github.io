@@ -1,10 +1,5 @@
 import React, { useState, useEffect, Fragment, useRef } from 'react';
-import {
-  GoogleMap,
-  LoadScript,
-  Marker,
-  Polyline,
-} from '@react-google-maps/api';
+import { GoogleMap, LoadScript, Marker, Polyline } from '@react-google-maps/api';
 import { useTranslation } from 'react-i18next';
 import Drawer from '@material-ui/core/Drawer';
 import { options, getMarkersByPath, getPathInfo } from './paths';
@@ -38,7 +33,7 @@ function Map({
   const [selectedMarker, setMarker] = useState<null | IMarker>(null);
   const [googleMap, setMap] = useState<any>(null);
   const { t } = useTranslation();
-  const zoom = 14;
+  const zoom = 13;
   const containerStyle = {
     height: 'calc(100vh - 50px)',
     width: '100%',
@@ -100,20 +95,18 @@ function Map({
               gestureHandling: 'greedy',
             }}
           >
-            {markerAndPathInfo.path.polylines.map(
-              (polyline: IPosition[], i) => {
-                return (
-                  <Polyline
-                    key={i}
-                    path={polyline}
-                    options={{
-                      ...options,
-                      strokeColor: markerAndPathInfo.path.color,
-                    }}
-                  />
-                );
-              }
-            )}
+            {markerAndPathInfo.path.polylines.map((polyline: IPosition[], i) => {
+              return (
+                <Polyline
+                  key={i}
+                  path={polyline}
+                  options={{
+                    ...options,
+                    strokeColor: markerAndPathInfo.path.color,
+                  }}
+                />
+              );
+            })}
             {userPosition.lat !== 0 && userPosition.lng !== 0 && (
               <Marker icon={CurrentPositionImage} position={userPosition} />
             )}
@@ -150,16 +143,10 @@ function Map({
           open={selectedMarker !== null}
           onClose={closeMap}
         >
-          {selectedMarker && (
-            <DrawerContent onClose={closeMap} marker={selectedMarker} />
-          )}
+          {selectedMarker && <DrawerContent onClose={closeMap} marker={selectedMarker} />}
         </Drawer>
       </div>
-      <ListView
-        googleMap={googleMap}
-        selectedMarker={selectedMarker}
-        pathId={pathId}
-      />
+      <ListView googleMap={googleMap} selectedMarker={selectedMarker} pathId={pathId} />
     </Fragment>
   );
 }
